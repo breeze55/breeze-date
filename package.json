@@ -1,6 +1,6 @@
 {
   "name": "breeze-date",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is a date plug-in based on native JavaScript developed.",
   "main": "dist/breeze-date-0.0.0.min.js",
   "directories": {
@@ -18,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/breeze55/breeze-date/issues"
   },
-  "homepage": "https://github.com/breeze55/breeze-date#readme"
+  "homepage": "https://github.com/breeze55"
 }
