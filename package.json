@@ -1,0 +1,22 @@
+{
+  "name": "breeze-date",
+  "version": "0.0.0",
+  "description": "This is a date plug-in based on native JavaScript developed.",
+  "main": "dist/breeze-date-0.0.0.min.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breeze55/breeze-date.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breeze55/breeze-date/issues"
+  },
+  "homepage": "https://github.com/breeze55/breeze-date#readme"
+}

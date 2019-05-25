@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 50px;">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title></title>
+	<script src="../dist/breeze-date-0.0.0.min.js"></script>
+	<style type="text/css">
+		input {
+			width: 80%;
+			height: 1rem;
+			margin: 3rem auto;
+			border: 1px solid #ccc;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<input id="picker1" type="text" name="" readonly="readonly">
+	<input id="picker2" type="text" name="" readonly="readonly">
+	<script type="text/javascript">
+		var PICKER = new BreezePicker({
+			headText: '请选择年龄'
+		});
+		PICKER.date({
+			target: "picker1",
+			currentValue: 35,
+			valueRange: [0, 100],
+			ensureCallback: function(value) {
+				console.log(value);
+			}
+		});
+	</script>
+	<script type="text/javascript">
+		var PICKER2 = new BreezePicker({
+			headText: '请选择日期'
+		});
+		PICKER2.date({
+			target: "picker2",
+			currentValue: '1989-06-15',
+			valueRange: ['1900-06-15', '2008-08-22'],
+			ensureCallback: function(value) {
+				console.log(value);
+			}
+		});
+	</script>
+</body>
+</html>
