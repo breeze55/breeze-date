@@ -22,7 +22,7 @@ npm install breeze-date --save
 <script src="../dist/breeze-date-0.0.0.min.js"></script>
 ```
 
-## Usage
+## 使用
 
 ```js
 <script>
@@ -40,7 +40,7 @@ PICKER.date({
 </script>
 ```
 
-## Props
+## 参数
 ```
 ```
 
@@ -51,6 +51,10 @@ PICKER.date({
 | currentValue             | Number or String   | 0      | 当前日期或年龄 |
 | valueRange       | Number or String   | [0, 100]   | 日期或年龄范围          |
 | ensureCallback       | Function   | 空函数   | 点击确定之后执行回调函数          |
+
+## 演示
+
+[demo](./example/demo.html)
 
 ```
 如果你感觉好用，欢迎给我打赏
