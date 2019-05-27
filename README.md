@@ -54,7 +54,7 @@ PICKER.date({
 
 ## 演示
 
-[demo](./example/demo.html)
+[demo](https://breeze55.github.io/breeze-date/example/demo.html)
 
 ```
 如果你感觉好用，欢迎给我打赏
