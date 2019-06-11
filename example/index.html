@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 18px;">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title></title>
+	<style type="text/css">
+		.wrap {
+			width: 375px;
+			margin: 0 auto;
+		}
+		input {
+			width: 300px;
+			height: 50px;
+			margin: 10px auto;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			display: block;
+			text-indent: 2em;
+		}
+	</style>
+<script type="text/javascript" src="../dist/breeze-date-1.0.0.min.js"></script></head>
+<body>
+	<div class="wrap">
+		<p>默认值: ['1993-11-28']</p>
+		<p>范围: ['1900-06-10', '2018-03-21']</p>
+		<input id="picker-date1" type="text" name="" readonly="readonly" placeholder="请选择日期">
+		<script type="text/javascript">
+			var config1 = {
+				target: "picker-date1",
+				type: "date",
+				format: 'YYYY-MM-DD',
+				currentValue: '1993-11-28',
+				valueRange: ['1900-06-10', '2018-03-21'],
+				ensureCallback: function(value) {
+					console.log(value);
+				}
+			};
+			var PICKER1 = new BreezePicker();
+			PICKER1.date(config1);
+		</script>
+		<p>默认值: 35</p>
+		<p>范围: [25, 50]</p>
+		<input id="picker-date2" type="text" name="" readonly="readonly" placeholder="请选择年龄">
+		<script type="text/javascript">
+			var config2 = {
+				target: "picker-date2",
+				type: "date",
+				format: 'YYYY-MM-DD',
+				currentValue: 35,
+				valueRange: [25, 50],
+				ensureCallback: function(value) {
+					console.log(value);
+				}
+			};
+			var PICKER2 = new BreezePicker();
+			PICKER2.date(config2);
+		</script>
+	</div>
+</body>
+</html>

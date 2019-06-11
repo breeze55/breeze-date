@@ -5,7 +5,7 @@
 
 ## 版本
 
-0.0.0
+1.0.0
 
 ## 安装
 
@@ -19,24 +19,25 @@ npm install breeze-date --save
 直接使用script引用
 
 ```js
-<script src="../dist/breeze-date-0.0.0.min.js"></script>
+<script src="../dist/breeze-date-1.0.0.min.js"></script>
 ```
 
 ## 使用
 
 ```js
-<script>
-var PICKER = new BreezePicker({
-  headText: ''
-});
-PICKER.date({
-  target: "picker",
-  currentValue: 35,
-  valueRange: [0, 100],
-  ensureCallback: function(value) {
-    console.log(value);
-  }
-});
+<script type="text/javascript">
+      var config = {
+        target: "picker-date",
+        type: "date",
+        format: 'YYYY-MM-DD',
+        currentValue: '1993-11-28',
+        valueRange: ['1900-06-10', '2018-03-21'],
+        ensureCallback: function(value) {
+          console.log(value);
+        }
+      };
+      var PICKER1 = new BreezePicker();
+      PICKER1.date(config);
 </script>
 ```
 
@@ -54,7 +55,7 @@ PICKER.date({
 
 ## 演示
 
-[demo](https://breeze55.github.io/breeze-date/example/demo.html)
+[demo](https://breeze55.github.io/breeze-date/example/index.html)
 
 ```
 如果你感觉好用，欢迎给我打赏

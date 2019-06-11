@@ -1,8 +1,8 @@
 {
   "name": "breeze-date",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "This is a date plug-in based on native JavaScript developed.",
-  "main": "dist/breeze-date-0.0.0.min.js",
+  "main": "dist/breeze-date-1.0.0.min.js",
   "directories": {
     "example": "example"
   },
