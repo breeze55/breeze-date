@@ -5,7 +5,7 @@
 
 ## 版本
 
-1.0.2
+1.0.3
 
 ## 安装
 
@@ -19,7 +19,7 @@ npm install breeze-date --save
 直接使用script引用
 
 ```js
-<script src="../dist/breeze-date-1.0.0.min.js"></script>
+<script src="../dist/breeze-date-1.0.3.min.js"></script>
 ```
 
 ## 使用
