@@ -19,7 +19,7 @@
 			text-indent: 2em;
 		}
 	</style>
-<script type="text/javascript" src="../dist/breeze-date-1.0.0.min.js"></script></head>
+<script type="text/javascript" src="breeze-date-1.0.0.min.js"></script></head>
 <body>
 	<div class="wrap">
 		<p>默认值: ['1993-11-28']</p>
@@ -36,8 +36,7 @@
 					console.log(value);
 				}
 			};
-			var PICKER1 = new BreezePicker();
-			PICKER1.date(config1);
+			new BreezeDate(config1);
 		</script>
 		<p>默认值: 35</p>
 		<p>范围: [25, 50]</p>
@@ -53,8 +52,7 @@
 					console.log(value);
 				}
 			};
-			var PICKER2 = new BreezePicker();
-			PICKER2.date(config2);
+			new BreezeDate(config2);
 		</script>
 	</div>
 </body>

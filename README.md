@@ -26,8 +26,8 @@ npm install breeze-date --save
 
 ```js
 <script type="text/javascript">
-      var config = {
-        target: "picker-date",
+      var config1 = {
+        target: "picker-date1",
         type: "date",
         format: 'YYYY-MM-DD',
         currentValue: '1993-11-28',
@@ -36,9 +36,8 @@ npm install breeze-date --save
           console.log(value);
         }
       };
-      var PICKER1 = new BreezePicker();
-      PICKER1.date(config);
-</script>
+      new BreezeDate(config1);
+    </script>
 ```
 
 ## 参数
@@ -47,7 +46,6 @@ npm install breeze-date --save
 
 |        参数       |   类型   | 默认值  |             说明             |
 |-------------------|----------|----------|-------------------------------------|
-| headText              | String    | “请选择日期”       | 头部标题描述          |
 | target              | String    | “picker”       | 目标元素id          |
 | currentValue             | Number or String   | 0      | 当前日期或年龄 |
 | valueRange       | Number or String   | [0, 100]   | 日期或年龄范围          |
